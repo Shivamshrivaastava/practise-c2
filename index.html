@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collab</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .navbar .logo img {
+            height: 40px;
+        }
+
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+
+        .navbar .nav-links a:hover {
+            color: #007bff;
+        }
+
+        .navbar .auth-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar .auth-links a {
+            text-decoration: none;
+            color: #ff6f61;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .navbar .auth-links .btn {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .navbar .auth-links .btn:hover {
+            background-color: #e55d4e;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 50px;
+            background-color: #ffffff;
+        }
+
+        .hero .hero-text {
+            max-width: 50%;
+        }
+
+        .hero .hero-text h1 {
+            color: #4a00e0;
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero .hero-text p {
+            color: #6c757d;
+            font-size: 18px;
+            margin: 20px 0;
+        }
+
+        .hero .hero-text .btn-group {
+            display: flex;
+            gap: 20px;
+        }
+
+        .hero .hero-text .btn-group .btn {
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .hero .hero-text .btn-group .btn-download {
+            background: linear-gradient(90deg, #ff6f61, #ff9068);
+            color: #fff;
+        }
+
+        .hero .hero-text .btn-group .btn-demo {
+            border: 2px solid #ff6f61;
+            color: #ff6f61;
+        }
+
+        .hero .hero-text .btn-group .btn-demo:hover {
+            transform: scale(1.03);
+
+        }
+
+        .hero .hero-text .btn-group .btn i {
+            font-size: 20px;
+            color: #ff6f61;
+        }
+
+        .hero .hero-image img {
+            max-width: 100%;
+        }
+
+        .logo-section {
+            background-color: #fef0e5;
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .logo-section img {
+            margin: 0 20px;
+            height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img alt="Collab logo" src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/logo.png" />
+        </div>
+        <div class="nav-links">
+            <a href="#">Products</a>
+            <a href="#">Use Cases</a>
+            <a href="#">Developers</a>
+            <a href="#">Pricing</a>
+        </div>
+        <div class="auth-links">
+            <a href="#">Sign in</a>
+            <a class="btn" href="#">TRY FOR FREE</a>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-text">
+            <p>TOP BUSINESS APP</p>
+            <h1>The platform for better cooperation</h1>
+            <p>Crafted with care & creativity. Brings together everything in one place.</p>
+            <div class="btn-group">
+                <a class="btn btn-download" href="#">DOWNLOAD</a>
+                <a class="btn btn-demo" href="#"><i class="fas fa-play"></i> CHECK DEMO</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img alt="Illustration of two people collaborating on a project"
+                src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/hero-header.gif" />
+        </div>
+    </div>
+    <div class="logo-section">
+        <img alt="Netflix logo" src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/netflix.png" />
+        <img alt="Facebook logo" src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/facebook.png" />
+        <img alt="Freelancer logo" src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/freelancer.png" />
+        <img alt="MailBluster logo"
+            src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/mailbluster.png" />
+        <img alt="ThemeWagon logo"
+            src="https://themewagon.github.io/collab/v1.0.0/assets/img/gallery/theme-wagon.png" />
+    </div>
+</body>
+
+</html>
